@@ -8,7 +8,7 @@ body {
     font-weight: 800;
     width: 800px;
     margin-bottom: 30px;
-    
+
 
 }
 
@@ -32,6 +32,8 @@ nav {
 
 .header {
     background: rgba(229, 84, 115, 0.10);
+
+
 
 
 }
@@ -128,5 +130,42 @@ nav {
 
 .about {
     background: #FFF;
-    
+
+}
+
+main {
+    margin: 240px;
+}
+
+.baner-titel {
+    padding-left: 425px;
+}
+
+.secend-image {}
+
+.header {
+    display: flex;
+}
+
+.section-description {
+    padding-left: 400px;
+}
+
+.for-image-one {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.for-image-one {
+    margin-left: 240px;
+}
+
+.background-pic {
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    background-image: url('../images/Rectangle\ 9.png');
+}
+
+footer{
+    background: #111010;
 }
